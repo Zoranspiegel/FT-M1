@@ -17,7 +17,7 @@ function DecimalABinario(num) {
     arrBin.unshift(intDiv % 2);
     intDiv = Math.floor(intDiv / 2);
   }
-  return arrBin.join("") /* *1 */;
+  return arrBin.join(""); // *1  o  Number(arrBin.join(""))
 }
 
 module.exports = {
